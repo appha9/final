@@ -75,6 +75,15 @@ h1{
     padding: 30px;
     column-gap:30px;
 }
+.content a{
+    display: inline-block;
+    text-decoration: none;
+    color:darkgoldenrod;
+     transition: transform 0.3s ease;
+}
+.content a:hover{
+    transform: scale(0.9);
+}
 .content p{
     font-size: larger;
     color:rgb(21, 26, 48);
